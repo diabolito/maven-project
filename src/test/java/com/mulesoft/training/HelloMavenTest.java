@@ -10,6 +10,8 @@ public class HelloMavenTest extends FunctionalTestCase {
         runFlowAndExpect("mavenFlow", "Hello Maven");
     }
     
+    
+    
     @Override
     protected String getConfigFile() {
         return "maven-project.xml";
